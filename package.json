@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "postcss": "^8.4.23"
+    "postcss": "^8.4.23",
+    "postcss-custom-properties": "^13.1.5"
   }
 }
