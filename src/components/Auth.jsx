@@ -30,7 +30,7 @@ const Auth = () => {
     event.preventDefault();
     const {avatarUrl,userName,phoneNumber, password} = form
 
-    const URL = 'https://chat-application-api.onrender.com/auth';
+    const URL = 'https://chat-application-api-fekj.onrender.com/auth';
 
     const {data} = await axios.post(`${URL}/${isSignIn?'login':'signup'}`,{
         userName,password,avatarUrl,fullName:form.fullName,phoneNumber
