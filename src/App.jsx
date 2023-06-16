@@ -7,7 +7,7 @@ import 'stream-chat-react/dist/css/index.css'
 import './App.css'
 import {ChannelContainer, ChannelListContainer,Auth} from './components'
 
-const apiKey='kte549c25nbn';
+const apiKey='xnp2n2crndh5';
 const cookies = new Cookies()
 const client=StreamChat.getInstance(apiKey)
 const authToken=cookies.get('token')
